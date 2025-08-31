@@ -25,20 +25,17 @@ export const metadata = {
 
 function Header() {
   return (
-    <header className="bg-white py-4 text-black font-mono">
+    <header className="bg-[#FFFFFF] py-4 text-[#022d33] font-mono">
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between">
           <div className="hover:bg-gray-300 hover:ring-4 hover:ring-gray-300 hover:rounded">
-            <Link href="/">Home</Link>
+            <Link href="/" className="text=[#022d33]">Home</Link>
           </div>
           <div className="hover:bg-gray-300 hover:ring-4 hover:ring-gray-300 hover:rounded">
-            <Link href="about-me">About Me</Link>
+            <Link href="about-me" className="text=[#022d33]">About Me</Link>
           </div>
           <div className="hover:bg-gray-300 hover:ring-4 hover:ring-gray-300 hover:rounded">
-            <Link href="projects">Projects</Link>
-          </div>
-          <div className="hover:bg-gray-300 hover:ring-4 hover:ring-gray-300 hover:rounded">
-            <Link href="connect">Connect with Me</Link>
+            <Link href="projects" className="text=[#022d33]">Projects</Link>
           </div>
         </nav >
       </div >
