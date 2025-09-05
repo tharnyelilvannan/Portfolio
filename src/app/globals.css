@@ -24,3 +24,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.background {
+  background: #022D33;
+  width: 100%;
+  min-width: 100vh;
+  min-height: 100vh;
+}
+
+.hobby {
+  color: #ffffff;
+}
