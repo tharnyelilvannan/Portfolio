@@ -2,14 +2,12 @@
 import me from './images/Picture1.jpg';
 import Image from "next/image";
 import { motion } from "motion/react"
-import TextAnimation from "./TextAnimation"
 import "tailwindcss"
-import { isAbsoluteUrl } from 'next/dist/shared/lib/utils';
 
 export default function Home() {
   return (
     <>
-      <div className="container min-h-screen min-w-screen bg-[#022d33]">
+      <div className="background">
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
