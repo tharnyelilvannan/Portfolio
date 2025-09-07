@@ -51,7 +51,7 @@ function Footer() {
     <footer className="bg-[#FFFFFF] py-4 text-[#022d33] font-mono font-bold">
       <div className="container mx-auto px-4 flex-row-reverse flex gap-7 mr-0 items-end">
         <a href="https://www.linkedin.com/in/tharny-elilvannan/">
-          <Image src={LinkedIn} height={25} alt="LinkedIn Link" className="mr-20" />
+          <Image src={LinkedIn} height={25} alt="LinkedIn Link" />
         </a>
         <a href="https://github.com/tharnyelilvannan">
           <Image src={GitHub} height={25} alt="GitHub Link" />
