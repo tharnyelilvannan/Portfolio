@@ -30,12 +30,9 @@ function Header() {
   return (
     <header className="bg-[#FFFFFF] py-4 text-[#022d33] font-mono font-bold">
       <div className="container mx-auto px-4">
-        <nav className="flex items-center justify-between">
+        <nav className="flex items-center justify-evenly">
           <div className="hover:bg-gray-300 hover:ring-4 hover:ring-gray-300 hover:rounded font-bold">
             <Link href="/" className="text=[#022d33]">Home</Link>
-          </div>
-          <div className="hover:bg-gray-300 hover:ring-4 hover:ring-gray-300 hover:rounded font-bold">
-            <Link href="about-me" className="text=[#022d33]">About Me</Link>
           </div>
           <div className="hover:bg-gray-300 hover:ring-4 hover:ring-gray-300 hover:rounded font-bold">
             <Link href="projects" className="text=[#022d33]">Projects</Link>

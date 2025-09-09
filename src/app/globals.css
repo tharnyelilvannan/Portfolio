@@ -44,19 +44,16 @@ body {
 .homepageTitle {
   color: #FFFFFF;
   font-family: Georgia;
-  font-size: 8rem;
   font-weight: 700;
 }
 
 .homepageBody {
   color: #FFFFFF;
-  position: absolute;
-  font-size: 1.5rem;
   font-family: Georgia;
 }
 
 .homepageImage {
-  height: 300px;
-  width: 300px;
   border-radius: 0.125rem;
+  min-height: auto;
+  min-width: auto;
 }
