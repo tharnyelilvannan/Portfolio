@@ -37,7 +37,6 @@ function Header() {
           <div className="font-bold">
             <Link href="my-work" className="text=[#022d33]">My Work</Link>
           </div>
-
         </nav >
       </div >
     </header >
