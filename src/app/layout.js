@@ -1,5 +1,6 @@
 import { Geist, Roboto, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "tailwindcss"
 import Link from "next/link"
 import LinkedIn from "./images/in-logo/in-logo/InBug-Black.png";
 import GitHub from "./images/github-logo/github-mark/github-mark.png";
@@ -36,6 +37,9 @@ function Header() {
           </div>
           <div className="font-bold">
             <Link href="my-work" className="text=[#022d33]">My Work</Link>
+          </div>
+          <div className="font-bold">
+            <Link href="resume" className="text=[#022d33]">Resume</Link>
           </div>
         </nav >
       </div >
