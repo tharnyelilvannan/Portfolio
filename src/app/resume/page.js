@@ -1,32 +1,12 @@
-'use client';
-import { motion } from "motion/react"
 import React from 'react'
+import ResumeButton from "../components/ResumeButton";
 
 export default function Page() {
     return (
-
         <div className="background">
             <div className='flex flex-col align-center ml-auto mr-auto mt-[10%]'>
-                <a
-                    href={'/Tharny_Elilvannan_Resume_Fall2025.pdf'}
-                    download='Tharny_Elilvannan_Resume_Fall2025.pdf'
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <motion.button
-                        whileHover={{ scale: 1.2 }}
-                        onHoverStart={event => { }}
-                        onHoverEnd={event => { }}
-                        whileTap={{ scale: 0.95 }}
-                        className="text-center text-[#D9D3D7] ml-auto mr-auto text-bold font-mono"
-                    >
-                        <p className="">Download Resume :)</p>
-
-                    </motion.button>
-                </a>
-
+                <ResumeButton />
             </div>
         </div >
     )
-
 }

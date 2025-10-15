@@ -37,6 +37,9 @@ function Header() {
           <div className="font-bold">
             <Link href="my-work" className="text=[#022d33]">My Work</Link>
           </div>
+          <div className="font-bold">
+            <Link href="resume" className="text=[#022d33]">Resume</Link>
+          </div>
         </nav >
       </div >
     </header >
