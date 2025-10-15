@@ -30,7 +30,7 @@ function Header() {
   return (
     <header className="bg-[#D9D3D7] py-4 text-[#022d33] font-mono font-bold">
       <div className="container mx-auto px-4">
-        <nav className="flex items-center justify-evenly">
+        <nav className="flex items-center justify-between">
           <div className="font-bold">
             <Link href="/" className="text=[#022d33]">Home</Link>
           </div>
