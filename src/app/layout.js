@@ -1,6 +1,5 @@
 import { Geist, Roboto, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import "tailwindcss"
 import Link from "next/link"
 import LinkedIn from "./images/in-logo/in-logo/InBug-Black.png";
 import GitHub from "./images/github-logo/github-mark/github-mark.png";
