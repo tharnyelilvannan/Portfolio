@@ -38,7 +38,7 @@ function Header() {
             <Link href="my-work" className="text=[#022d33]">My Work</Link>
           </div>
           <div className="font-bold">
-            <Link href="resume" className="text=[#022d33]">Resume</Link>
+            <Link href="/Tharny_Elilvannan_Resume_Fall2025.pdf" className="text=[#022d33]">Resume</Link>
           </div>
         </nav >
       </div >
