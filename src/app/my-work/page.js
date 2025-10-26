@@ -17,7 +17,7 @@ export default function Page() {
     return (
         <div className="projectBackground p-10">
             <div className='flex flex-row justify-evenly flex-wrap gap-20'>
-
+                // all activities
                 <MEC />
                 <Altimeter />
                 <DARE />
