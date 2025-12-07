@@ -5,6 +5,7 @@ export default function Page() {
     return (
         <div className="background">
             <div className='flex flex-col align-center ml-auto mr-auto mt-[10%]'>
+                // button to click to download resume
                 <ResumeButton />
             </div>
         </div >

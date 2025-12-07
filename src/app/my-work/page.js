@@ -16,14 +16,10 @@ export default function Page() {
 
     return (
         <div className="projectBackground p-10">
-            <div className='flex flex-row justify-evenly flex-wrap gap-20'>
-
+            <div className='flex flex-row justify-evenly flex-wrap mt-30 gap-20'>
                 <MEC />
-                <Altimeter />
                 <DARE />
-                <Portfolio />
                 <MASS />
-                <RescueMission />
 
             </div>
 
