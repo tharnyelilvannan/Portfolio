@@ -9,6 +9,6 @@ export default function HomeBody() {
             transition={{
                 duration: 0.4,
                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.6 },
-            }}>I'm Tharny, and I'm a third year Software Engineering student at McMaster University.</motion.div>
+            }}>I'm Tharani, and I'm a third year Software Engineering student at McMaster University.</motion.div>
     )
 }
