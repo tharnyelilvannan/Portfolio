@@ -20,11 +20,11 @@ My duties include preparing competition materials, including a briefing presenta
     },
     {
         title: 'DARE',
-        description: `I am a Software Team Member for the McMaster Deep Space Analogue Research Expedition. In this role, I am developing a web app with React that allows us to remotely control our ROV. BELUGA's mission is to simulate exploring the Galilean moon Europa, known for potential oceans beneath its ice. BELUGA will be able to explore underwater, recording data that it will be able to bring home.`
+        description: `I am a Software Team Member for the McMaster Deep-space Analogue Research Expedition. In this role, I am developing a web app with React that allows us to remotely control our ROV. BELUGA's mission is to simulate exploring the Galilean moon Europa, known for potential oceans beneath its ice. BELUGA will be able to explore underwater, recording data that it will be able to bring home.`
     },
     {
         title: 'MASS',
-        description: `I am Co-VP Communications for McMaster Advanced Space Systems. In this role in the club email, ensure team communication is seamless, and handle communication with the MES.`
+        description: `I am Co-VP Communications for McMaster Advanced Space Systems. In this role, I monitor the club email, ensure team communication is seamless, and handle communication with the MES.`
     }
 ];
 
